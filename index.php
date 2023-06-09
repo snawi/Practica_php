@@ -1,5 +1,15 @@
 <?php
-include 'arreglos.php';
+/* include 'arreglos.php'; */
+/* include 'recorrerArreglo.php'; */
+/* include 'condicional.php'; */
+/* include 'operadoresAritmeticos.php'; */
+/* include 'operadoresIncremento.php'; */
+/* include 'switch.php'; */
+/* include 'condicionalTernario.php'; */
+/* include 'cicloFor.php'; */
+/* include 'while.php'; */
+/* include 'breakYcontinue.php'; */
+include 'funciones.php';
 ?>
 
 
@@ -13,6 +23,6 @@ include 'arreglos.php';
 </head>
 <body>
    <!--  <h1><?php echo implode( $arreglo); ?>  </h1> -->
-   
 </body>
 </html>
+

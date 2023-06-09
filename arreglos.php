@@ -17,6 +17,8 @@ $nombre = array(
 
 /* echo $nombre; */
 
+//_____________________________________________________________________________
+
 //como saber cuantos valores hay en un arreglo con la funcion count()
 
 $nombre = array(
@@ -33,6 +35,6 @@ $nombre = array(
 $ultimoMes= count($nombre) - 1;
 
 
-echo $ultimoMes;
+/* echo $ultimoMes; */
 
 ?>
