@@ -12,6 +12,7 @@
 /* include 'funciones.php'; */
 /* include 'scope.php'; */
 /* include 'includeYrequire.php'; */
+include 'declaracion_escalar.php';
 ?>
 
 
@@ -24,7 +25,20 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>El resultado de la suma es : <?php sumar(12,20) ?> </h2>
+    <h2>El resultado de la suma es : </h2>
+
+    <?php
+
+    function cuadrado($nombre){
+        $nombre;
+        return;
+    };
+
+    $nombre = 'wilmer';
+
+    echo 'el cuadrado de ' . $nombre . ' es' . cuadrado($nombre);
+    ?>
+
 </body>
 </html>
 
