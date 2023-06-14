@@ -9,7 +9,9 @@
 /* include 'cicloFor.php'; */
 /* include 'while.php'; */
 /* include 'breakYcontinue.php'; */
-include 'funciones.php';
+/* include 'funciones.php'; */
+/* include 'scope.php'; */
+/* include 'includeYrequire.php'; */
 ?>
 
 
@@ -22,7 +24,7 @@ include 'funciones.php';
     <title>Document</title>
 </head>
 <body>
-   <!--  <h1><?php echo implode( $arreglo); ?>  </h1> -->
+    <h2>El resultado de la suma es : <?php sumar(12,20) ?> </h2>
 </body>
 </html>
 

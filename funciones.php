@@ -9,7 +9,7 @@
 
 
 
-/* function saludo(){
+ function saludo(){
     echo 'saludo';
 }
 
@@ -31,17 +31,17 @@ saludo();
 
  sumar(10, 20);
  sumar(15, 80);
- sumar(18, 70); */
+ sumar(18, 70); 
 
 
  //practica
 
-/*  function calcular_area($base, $altura){
+ function calcular_area($base, $altura){
     $resultado = ($base * $altura) / 2;
      return $resultado;
  }
 
- echo 'el triangulo tiene un area de '. calcular_area(10, 10) . ' metros'; */
+ echo 'el triangulo tiene un area de '. calcular_area(10, 10) . ' metros'; 
 
  //___________________________________________________________________________________
 
@@ -66,7 +66,23 @@ saludo();
 
  //extract (se puede ejcutar un indice del arreglo como variable)
 
- $comidas = array('arroz' => 'pollo', 'frijol' => 'carne');
+  $comidas = array('arroz' => 'pollo', 'frijol' => 'carne');
+  $meses = array(
+    'enero',
+    'febrero',
+    'abril',
+    'mayo',
+    'octubre',
+    'diciembre',
+);
+
+
+ function calcular_area($base, $altura){
+   echo $resultado = $base * $altura;
+    return $resultado;
+}
+
+calcular_area(5, 4); 
 
  extract($comidas);
  array_pop($comidas); //selecciona el ultimo indice o elemento del arreglo
@@ -74,4 +90,26 @@ saludo();
  echo join('-', $comidas);
  count($comidas);
 
- $comidas_reverts = array_reverse($comidas); //nos trae el arreglo invertido
+ $comidas_reverts = array_reverse($comidas); //nos trae el arreglo invertido  */
+
+ foreach($comidas as $comida => $valor){
+    echo "<li>" .$comida. "</li>";
+ } 
+
+
+
+$numero = 15.47;
+
+//redondea el numero
+echo round($numero); 
+
+ echo rand(1,10); */
+//calcular el numero de paginacion hacia arriba
+/* echo ceil(12.1); 
+
+
+//traer el numero de Pi
+echo M_PI;
+
+//la funcion die detiene el codigo
+
